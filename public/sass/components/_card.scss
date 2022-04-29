@@ -9,9 +9,9 @@
     align-items: center;
     margin-right: 2%;
     .line {
-        border-bottom: 1px solid gray;
-    color: white;
-    width: 70%;
+        border-bottom: 1px solid rgb(235,235,235);
+        color: white;
+        width: 70%;
     }
     img{    
         width: 130px;
@@ -42,8 +42,8 @@
         align-items: flex-end;
         justify-content: space-around;
         padding-left: 15%;
-    background-color: rgb(250,250,254);
-    align-items: center;
+        background-color: rgb(250,250,254);
+        align-items: center;
         .icono-reward{
             border-radius: 24px;
             background-color: rgb(250,250,254);

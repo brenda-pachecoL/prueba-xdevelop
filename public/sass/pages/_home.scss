@@ -46,16 +46,30 @@ main{
     }
     .container-search{
         width: 100%;
+        position: relative;
+        i{
+            position: absolute;
+            right: 10px;
+            width: 40px;
+            height: 40px;
+            color: aliceblue;
+            border-radius: 30px;
+            background-color: rgb(254,151,88);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 8px 8px 18px 7px rgba(255, 220, 197, 0.911);
+        
+        }
         input{
             height: 48px;
             width: 100%;
             border-radius: 20px;
             color: rgb(175, 174, 177);
             padding-left: 38px;
-    font-size: 11px;
-    letter-spacing: 1px;
-    font-weight: 400;
-           box-shadow: 2px 9px 23px 8px rgba(117, 117, 126, 0.88);
+            font-size: 11px;
+            letter-spacing: 1px;
+            font-weight: 400;
         }
     }
 }
@@ -69,5 +83,11 @@ main{
     .encabezado-carrousel{
         padding-bottom: 20px;
         width: 85%;
+        color: rgb(149,149,153);
+        color: rgb(149,149,153);
+        font-family: 'Radio Canada', sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+    
     }
 }

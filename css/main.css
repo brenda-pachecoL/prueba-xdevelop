@@ -11,8 +11,16 @@ header {
 }
 
 header i {
-  padding: 10px;
+  padding: 5px;
   color: aliceblue;
+}
+
+header i:hover {
+  width: 20px;
+  height: 20px;
+  border-radius: 44px;
+  background-color: white;
+  color: #5152d4;
 }
 
 header a {
@@ -82,7 +90,7 @@ header div {
 }
 
 .card .line {
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #ebebeb;
   color: white;
   width: 70%;
 }
@@ -248,6 +256,28 @@ main img {
 
 main .container-search {
   width: 100%;
+  position: relative;
+}
+
+main .container-search i {
+  position: absolute;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  color: aliceblue;
+  border-radius: 30px;
+  background-color: #fe9758;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 8px 8px 18px 7px rgba(255, 220, 197, 0.911);
+          box-shadow: 8px 8px 18px 7px rgba(255, 220, 197, 0.911);
 }
 
 main .container-search input {
@@ -259,8 +289,6 @@ main .container-search input {
   font-size: 11px;
   letter-spacing: 1px;
   font-weight: 400;
-  -webkit-box-shadow: 2px 9px 23px 8px rgba(117, 117, 126, 0.88);
-          box-shadow: 2px 9px 23px 8px rgba(117, 117, 126, 0.88);
 }
 
 .cont-carrousel {
@@ -282,5 +310,10 @@ main .container-search input {
 .cont-carrousel .encabezado-carrousel {
   padding-bottom: 20px;
   width: 85%;
+  color: #959599;
+  color: #959599;
+  font-family: 'Radio Canada', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
 }
 /*# sourceMappingURL=main.css.map */
