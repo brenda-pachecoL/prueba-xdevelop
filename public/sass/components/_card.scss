@@ -31,6 +31,10 @@
         justify-content: space-around;
         font-size: 12px;
         padding-left: 15%;
+        i{
+            padding-right: 2px;
+            color: rgb(149,148,153);
+        }
         h4{
             padding-bottom: 16px;
         }
@@ -44,6 +48,20 @@
         padding-left: 15%;
         background-color: rgb(250,250,254);
         align-items: center;
+        .diner{
+            color: rgb(76,96,211);
+            font-family: 'Radio Canada', sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            
+        }
+        .diner-description{
+            padding-top: 3px;
+            font-family: 'Radio Canada', sans-serif;
+            color: rgb(194,190,213);
+            font-weight: 500;
+            font-size: 12px;
+        }
         .icono-reward{
             border-radius: 24px;
             background-color: rgb(250,250,254);
