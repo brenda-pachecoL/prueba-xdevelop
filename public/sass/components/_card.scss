@@ -1,0 +1,65 @@
+.card{
+    display: flex;
+    background-color: rgb(255,255,255);
+    width: 20%;
+    height: 350px;
+    border-radius: 4px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 2%;
+    .line {
+        border-bottom: 1px solid gray;
+    color: white;
+    width: 70%;
+    }
+    img{    
+        width: 130px;
+        height: 103px;
+    }
+    .inf{
+        width: 100% ;
+        display: flex;
+        height: 50%;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .description{
+        display: flex;
+        height: 50%;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 12px;
+        padding-left: 15%;
+        h4{
+            padding-bottom: 16px;
+        }
+    }
+    .hiring-reward{
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-around;
+        padding-left: 15%;
+    background-color: rgb(250,250,254);
+    align-items: center;
+        .icono-reward{
+            border-radius: 24px;
+            background-color: rgb(250,250,254);
+            height: 45px;
+            width: 45px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(233,233,251);
+        i{
+            padding: 14px;
+            color: rgb(91,69,227);
+        }
+        }
+        .icono-reward:hover{
+            background-color: blueviolet;
+            color: aliceblue;
+        }
+    }
+}
