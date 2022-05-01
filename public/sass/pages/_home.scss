@@ -91,3 +91,34 @@ main{
     
     }
 }
+@media (max-width: $smartphone ) {
+    body{
+        background-color: aqua;
+    }
+    header{
+        width: 50%;
+        nav{
+            width: 80%;
+        }
+    }
+    .cont-principal{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+        
+    main{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .carrousel{
+        flex-direction: column;
+        .card{
+            width: 80%;
+            margin-bottom: 20px;
+        }
+    }
+    
+}
