@@ -389,7 +389,6 @@ main .container-search input {
     width: -moz-fit-content;
     width: fit-content;
     background-color: transparent;
-    margin-left: 22px;
   }
   .cont-menuHamburguesa.active a:hover {
     background-color: #5152d4;
