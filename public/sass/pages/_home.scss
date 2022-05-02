@@ -144,11 +144,14 @@ main{
         }
         div{
             order: 2;
+            .text{
+                font-size: large;
+            }
         }
         
     }
     .cont-carrousel{
-        position: inherit;
+        position: revert;
     }
     .carrousel{
         flex-direction: column;

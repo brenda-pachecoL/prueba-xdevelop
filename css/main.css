@@ -407,8 +407,11 @@ main .container-search input {
         -ms-flex-order: 2;
             order: 2;
   }
+  main div .text {
+    font-size: large;
+  }
   .cont-carrousel {
-    position: inherit;
+    position: revert;
   }
   .carrousel {
     -webkit-box-orient: vertical;
