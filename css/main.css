@@ -346,9 +346,6 @@ main .container-search input {
 }
 
 @media (max-width: 480px) {
-  body {
-    background-color: aqua;
-  }
   .cont-menuHamburguesa {
     display: none;
   }
@@ -393,6 +390,7 @@ main .container-search input {
     width: 100%;
   }
   main {
+    width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -400,6 +398,17 @@ main .container-search input {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  main img {
+    width: 100%;
+  }
+  main div {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .cont-carrousel {
+    position: inherit;
   }
   .carrousel {
     -webkit-box-orient: vertical;
@@ -410,6 +419,9 @@ main .container-search input {
   .carrousel .card {
     width: 80%;
     margin-bottom: 20px;
+    border-radius: 1px;
+    border: solid;
+    border-color: #eff3f6;
   }
 }
 /*# sourceMappingURL=main.css.map */
