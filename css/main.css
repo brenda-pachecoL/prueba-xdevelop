@@ -353,7 +353,7 @@ main .container-search input {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background-color: antiquewhite;
+    background-color: white;
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -363,6 +363,12 @@ main .container-search input {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .cont-menuHamburguesa.active .btn-closed {
+    width: 8%;
+    margin-left: 10px;
+    margin-top: 16px;
+    background-color: transparent;
+  }
   .cont-menuHamburguesa.active ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -371,6 +377,22 @@ main .container-search input {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    height: 60vh;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .cont-menuHamburguesa.active a {
+    text-decoration: none;
+    color: #5152d4;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    background-color: transparent;
+    margin-left: 22px;
+  }
+  .cont-menuHamburguesa.active a:hover {
+    background-color: #5152d4;
+    color: white;
   }
   header {
     width: 50%;
