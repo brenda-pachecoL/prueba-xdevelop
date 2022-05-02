@@ -10,6 +10,10 @@ header {
   background-color: #5152d4;
 }
 
+header #btn-hamburguesa {
+  display: none;
+}
+
 header i {
   padding: 5px;
   color: aliceblue;
@@ -213,6 +217,10 @@ body {
   background-color: var(#eff3f6);
 }
 
+.cont-menuHamburguesa {
+  display: none;
+}
+
 .cont-principal {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -341,11 +349,42 @@ main .container-search input {
   body {
     background-color: aqua;
   }
+  .cont-menuHamburguesa {
+    display: none;
+  }
+  .cont-menuHamburguesa.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: antiquewhite;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+  }
   header {
     width: 50%;
   }
   header nav {
     width: 80%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  header nav div {
+    width: 50%;
+  }
+  header .menu-destop {
+    display: none;
+  }
+  header #btn-hamburguesa {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: transparent;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .cont-principal {
     width: 100%;

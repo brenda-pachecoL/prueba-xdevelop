@@ -16,12 +16,24 @@
 <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Lora:ital,wght@1,400;1,500&family=Open+Sans:wght@300;400&family=Radio+Canada:wght@400;500;600&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/ffb15e7298.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body id="contenedor-body">
+    <div id="contenedor-hamburguesa" class="cont-menuHamburguesa">
+        <button onclick="cerrarMenuHamburguesa()" type="button">CERRAR</button>
+        <ul>
+            <a href="#">HOME</a>
+            <a href="#">ABOUT US</a>
+            <a href="#">BLOG</a>
+            <a href="#">HOW IT WORKS?</a>
+        </ul>            
+    </div>
     <div class="cont-principal">
         <header>
+            <button onclick="desplegarMenuHamburguesa()" id="btn-hamburguesa">
+                <i  class="fa-solid fa-bars"></i>
+            </button>
             <i class="fa-solid fa-puzzle-piece"></i>
             <nav>
-                <ul>
+                <ul class="menu-destop">
                     <a href="#">HOME</a>
                     <a href="#">ABOUT US</a>
                     <a href="#">BLOG</a>
@@ -49,7 +61,7 @@
             <p class="encabezado-carrousel">RECENTLY ADDED JOBS:</p>
             <div class="carrousel">
                 <div class="card">
-                    <img src="./img/Hermès.svg.png" alt="logo de Hermès">
+                    <img src="/public/img/Hermès.svg.png" alt="logo de Hermès">
                     <div class="line">.</div>
                     <div class="inf">
                         <div class="description">
@@ -69,7 +81,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="./img/descarga.png" alt="logo de Coca-cola">
+                    <img src="/public/img/descarga.png" alt="logo de Coca-cola">
                     <div class="line">.</div>
                     <div class="inf">
                         <div class="description">
@@ -89,7 +101,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="./img/GV4THM7AAZDMNNB52ZRGJWH5I4.jpg" alt="logo de Dropbox">
+                    <img src="/public/img/dropbox.jpg" alt="logo de Dropbox">
                     <div class="line">.</div>
                     <div class="inf">
                         <div class="description">
@@ -109,7 +121,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="./img/mcdonalds-logo-footer-bg-white.png" alt="logo de Mcdonalds">
+                    <img src="/public/img/mcdonalds-logo-footer-bg-white.png" alt="logo de Mcdonalds">
                     <div class="line">.</div>
                     <div class="inf">
                         <div class="description">
@@ -129,8 +141,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        
+        </div>    
     </div>
+    <script src="./funciones.js"></script>
 </body>
 </html>
